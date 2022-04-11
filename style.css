@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin:0 ;
+}
+
+img{
+    max-width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+/* Start MenuBar Secytion*/
+.header_section{
+   
+
+}
+
+.main_menu{
+background-color: #000;
+text-align: center;
+}
+
+.main_menu li{
+    display: inline-block;
+}
+
+.main_menu li a{
+    color: #fff;
+    padding: 30px 26px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.main_menu li:hover >a{
+    background-color: skyblue
+    ;
+}
+.main_menu .dropdown_menu li :first-child a{
+
+}
+/*Start DropDown Meu*/
+
+.sub_menu{
+    position: relative;
+}
+.dropdown_menu{
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    width: 300px;
+    background-color: black;
+    border-top: 4px solid skyblue;
+
+}
+
+.main_mega{
+    position: relative;
+}
+
+.mega_menu{
+    position: absolute;
+    left: 100%;
+    top:-4px;
+    width: 300px;
+    background-color: black;
+    border-top: 4px solid skyblue;
+}
+.dropdown_menu li{
+     display: block;
+    }
+.dropdown_menu li a{
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+/*Hover Section*/
+.main_menu .sub_menu .dropdown_menu{
+    display: none;
+
+}
+.main_menu .sub_menu:hover .dropdown_menu{
+ display: block;
+}
+.main_menu .sub_menu .dropdown_menu .mega_menu{
+    display: none;
+}
+
+ .sub_menu .dropdown_menu .main_mega:hover .mega_menu{
+    display: none;
+}
+
+
+/* Start MenuBar Secytion*/
+
+/*Start Banner Area*/
+
+.banner_area{
+    background-image: url("image/young.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    text-align: center;
+    color: #fff;
+}
+.banner_area .button{
+    padding: 12px 30px;
+    background-color:#fff;
+    border: none;
+    margin-top: 30px;
+
+}
+.banner_section h2{
+    background-color: #fff;
+    margin-top: 18px;
+    color: #000;
+}
+
+.banner_section button{
+    padding: 12px 20px;
+    background-color: red;
+    border: none;
+    margin-top: 30px;
+}
+.banner_area button .anchor{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+ }
+
+.banner_area button a{
+   text-decoration: none;
+   color: #fff;
+}
+
+/*End Banner Area*/
+
+/* Start About Section*/
+.border{
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.border1{
+    box-shadow:6px -8px 11px #ddd;
+}
+.heading_area h1{
+ text-align: center;
+ margin-top: 30px;
+}
+.about_section{
+ margin-top: 15px;
+}
+.about_content{
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+/* Start About Section*/
+
+/* Start subscrib Section*/
+ .subscrib_area{
+     background-color: #ddd;
+     padding:20px 0px;
+     background-color: rgba(221, 221, 221, 0.837);
+     }
+ .input{
+     width: 70%;
+     padding: 15px 10px;
+     border: none;
+     border-bottom:1px solid red;
+
+
+ }
+.input_button{
+    padding: 16px 48px;
+    margin-left: -4px;
+    background-color: red !important;
+    border: none;
+    color: #fff;
+    transition: .5s;
+}
+.input_button:hover{
+    background-color: #fff;
+    border: 1px solid red;
+}
+
+/* End subscrib Section*/
+
+/* Start Contant Section*/
+   .contant_area{
+display: inline-block;
+   }
+
+/* End Contant Section*/
+
+/* Start icon Section*/
+.main_menu{}
+.main_menu li{
+
+}
+.main_menu li .link{
+color:aqua;
+font-size: 30px;
+}
+
+/* End icon Section*/
